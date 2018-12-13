@@ -7,7 +7,7 @@ provider "aws" {
 # Create the AMI Instance
 
 resource "aws_instance" "example" {
-  ami           = "ami-408c7f28"
+  ami           = "ami-0ac019f4fcb7cb7e6"
   instance_type = "t1.micro"
 
   tags {
